@@ -1,4 +1,5 @@
 
+using ValidateCreditCardAPI.Middleware;
 using ValidateCreditCardAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddControllers();
-builder.Services.AddScoped<LuhnValidatorService>();
+builder.Services.AddScoped<ILuhnValidator,LuhnValidatorService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -23,6 +24,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.MapControllers();
+app.UseMiddleware<ErrorHandlerMiddleware>();
 
 var summaries = new[]
 {

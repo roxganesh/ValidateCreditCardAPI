@@ -31,3 +31,4 @@
 /Users/ganeshkumar/ValidateCreditCardAPI/obj/Debug/net8.0/ValidateCreditCardAPI.pdb
 /Users/ganeshkumar/ValidateCreditCardAPI/obj/Debug/net8.0/ValidateCreditCardAPI.genruntimeconfig.cache
 /Users/ganeshkumar/ValidateCreditCardAPI/obj/Debug/net8.0/ref/ValidateCreditCardAPI.dll
+/Users/ganeshkumar/ValidateCreditCardAPI/obj/Debug/net8.0/ValidateCreditCardAPI.sourcelink.json
