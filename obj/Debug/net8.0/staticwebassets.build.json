@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Yl44o8qrpnLTkdP5262bYR0ROo/uwvnX1wzC1WEt6AQ=",
+  "Source": "ValidateCreditCardAPI",
+  "BasePath": "_content/ValidateCreditCardAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
